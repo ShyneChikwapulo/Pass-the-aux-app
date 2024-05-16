@@ -1,4 +1,4 @@
-# Music-Controller-Web-App-Tutorial
+# Pass-the-Aux-App
 
 ## Setup Instructions
 

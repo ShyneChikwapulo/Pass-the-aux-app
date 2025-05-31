@@ -1,7 +1,22 @@
 # Pass-the-Aux-App
 
 ## Setup Instructions
+### Note using python 3.10
 
+First cd into your desired   folder  .
+```bash
+cd "Pass-the-Aux"
+```
+
+ ### Create the virtual environment
+ ```bash
+ # For Windows
+python -m venv venv
+```
+### Activate the virtual environment
+```bash
+venv\Scripts\activate
+```
 ### Install Required Python Modules
 ```bash
 pip install -r requirements.txt
@@ -10,10 +25,7 @@ pip install -r requirements.txt
 
 To start the web server you need to run the following sequence of commands.
 
-First cd into your desired tutorial folder (replace x with tutorial number).
-```bash
-cd "Pass-the-Aux"
-```
+
 Next run the django web server.
 ```bash
 python manage.py runserver
